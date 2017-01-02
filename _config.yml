@@ -1,0 +1,33 @@
+title: "Tiernan's Podcast"
+author: "Tiernan OToole"
+description: "Tiernan's Podcast"
+#subheading: "Really cool blog about ... something"
+more: "read more"
+url: "http://podcast.tiernanotoole.ie"
+baseurl: "" # comment out if in root directory
+
+comments:
+    disqus: "tiernanspodcast"
+#    isso: "comments.mysite.org"
+
+style:
+#    body: "whitesmoke"
+    padding: 33%
+    anchor: "#46f"
+    serif-heading: true
+    nav: "#181818"
+#    headline: "#06f"
+    description: "white"
+    article:
+        odd: "#ffffff"
+        even: "#222222"
+
+links:
+  - github: "https://github.com/tiernano/"
+  - twitter: "https://twitter.com/tiernano/"
+
+excerpt_separator: "\n\n\n"
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+
+gems: 
+  -  jekyll-paginate
